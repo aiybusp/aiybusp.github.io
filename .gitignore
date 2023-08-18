@@ -1,0 +1,7 @@
+_site
+.sass-cache
+src/.jekyll-cache
+.jekyll-metadata
+vendor
+.idea/
+node_modules

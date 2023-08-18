@@ -1,0 +1,45 @@
+title: Ari Perkins Babcock | 
+email: agmalmpb@gmail.com
+description: >- 
+ Ari Perkikn Babcock's Portfolio
+baseurl: ""
+url: ""
+github_username: aiybusp
+linkedin_username: ariperkinsbabcock
+
+paginate: 5
+paginate_path: "/page:num/"
+
+lsi: false
+safe: true
+incremental: false
+
+gist:
+  noscript: false
+
+kramdown:
+  syntax_highlighter_opts:
+    math_engine: mathjax
+    disable: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .idea/

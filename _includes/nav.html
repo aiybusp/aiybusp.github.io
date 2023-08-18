@@ -1,0 +1,7 @@
+<nav class="nav justify-content-center">
+    {% for page in site.pages %}
+    {% if page.title %}
+    <a class="nav-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+    {% endif %}
+    {% endfor %}
+</nav>
