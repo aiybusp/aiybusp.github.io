@@ -1,25 +1,5 @@
 ---
-layout: default
-site_title: Ari Perkins-Babcock | Biotech Student
+layout: home
+title: Ari Perkins-Babcock 
+subtitle: Biotech Student at Pasadena City College 
 ---
-
-<section class="latest-post">
-    {% for post in paginator.posts %}
-    <article class="card post">
-        <div class="card-body">
-        <p class="date text-center text-small text-secondary">{{ post.date | date: "%B %d, %Y" }}</p>
-        <h2 class="card-title text-center"><a class="text-bolder text-secondary text-decoration-none" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="card-text">{{ post.excerpt }}</p>
-        <div class="text-center">
-        <a href="{{ post.url | relative_url }}" aria-label="{{post.title}}" class="read-more btn btn-secondary">Read more</a>
-        </div>
-        </div>
-    </article>
-    {% endfor %}
-</section>
-<br>
-{% include pagination.html %}
-<br/>
-{% include featured_projects.html %}
-<br>
-<hr />
