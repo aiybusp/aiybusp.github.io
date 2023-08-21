@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Ari Perkins-Babcock's Resume 
+title:  Resume
 permalink: /resume/
 ---
 

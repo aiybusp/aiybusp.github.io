@@ -1,5 +1,3 @@
-// Dean Attali / Beautiful Jekyll 2023
-
 let BeautifulJekyllJS = {
 
   bigImgEl : null,
@@ -52,7 +50,6 @@ let BeautifulJekyllJS = {
       BeautifulJekyllJS.bigImgEl = $("#header-big-imgs");
       BeautifulJekyllJS.numImgs = BeautifulJekyllJS.bigImgEl.attr("data-num-img");
 
-      // 2fc73a3a967e97599c9763d05e564189
       // set an initial image
       const imgInfo = BeautifulJekyllJS.getImgInfo();
       const src = imgInfo.src;
@@ -136,7 +133,5 @@ let BeautifulJekyllJS = {
     });
   }
 };
-
-// 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
