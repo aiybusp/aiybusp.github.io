@@ -23,7 +23,11 @@
     {%- endif -%}
   {% endcapture %}
 
-  <title>{{ title }}</title>
+{% if page.url == "/" %}
+  <title>Ari Perkins-Babcock | Biotech Student </title>
+   {% else %}
+  <title>Ari Perkins-Babcock | {{ title }}</title>
+{% endif %}
 
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">
