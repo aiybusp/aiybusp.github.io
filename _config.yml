@@ -1,45 +1,99 @@
-title: Ari Perkins Babcock | 
-email: agmalmpb@gmail.com
-description: >- 
- Ari Perkikn Babcock's Portfolio
-baseurl: ""
-url: ""
-github_username: aiybusp
-linkedin_username: ariperkinsbabcock
+title: Ari Perkins-Babcock
 
+author: Ari 
+
+navbar-links:
+  About Me: "about-ari-perkins-babcock"
+  Resume: "resume"
+  Portfolio:
+    - NASA Internship: "/nasa-internship/"
+    - Volunteer Work: "/volunteer-work/"
+
+avatar: "/assets/img/ariilm.jpg"
+
+round-avatar: true
+
+#title-img: /path/to/image
+
+
+social-network-links:
+  email: "agmalmpb@gmail.com"
+  rss: true  
+  github: aiybusp
+  linkedin: ariperkinsbabcock 
+
+rss-description: Ari Perkins-Babcock's Portfolio and Blog
+
+share-links-active:
+  twitter: true
+  facebook: false 
+  linkedin: true
+  vk: false
+
+url-pretty: "ariilm.com"
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+post_search: true
+edit_page_button: true
+navbar-var-length: false
+
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
+
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
+
+mobile-theme-col: "#0085A1"
+gtag: "G-WKF8GXVZ6C"
+
+
+# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
+#disqus: ""
+
+date_format: "%B %-d, %Y"
+
+timezone: "America/Los Angeles"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
 paginate: 5
-paginate_path: "/page:num/"
-
-lsi: false
-safe: true
-incremental: false
-
-gist:
-  noscript: false
 
 kramdown:
-  syntax_highlighter_opts:
-    math_engine: mathjax
-    disable: true
+  input: GFM
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false 
+      social-share: false 
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
 
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
+  - CNAME
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .idea/
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
