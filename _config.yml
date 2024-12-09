@@ -5,9 +5,11 @@ author: Ari
 navbar-links:
   About Me: "about-ari-moya"
   Resume: "resume"
+  Certifications: "Certifications"
   Portfolio:
     - NASA Internship: "/nasa-internship/"
     - Volunteer Work: "/volunteer-work/"
+    -Clinical Experience: "/clinical-experience/"
 
 avatar: "/assets/img/ariilm.jpg"
 
@@ -17,12 +19,12 @@ round-avatar: true
 
 
 social-network-links:
-  email: "agmalmpb@gmail.com"
+  email: "almpbscholar@gmail.com"
   rss: true  
   github: aiybusp
-  linkedin: ariperkinsbabcock 
+  linkedin: arimoya 
 
-rss-description: Ari Perkins-Babcock's Portfolio and Blog
+rss-description: Ari Moya's Portfolio 
 
 share-links-active:
   twitter: true
