@@ -9,7 +9,7 @@ navbar-links:
   Portfolio:
     - NASA Internship: "/nasa-internship/"
     - Volunteer Work: "/volunteer-work/"
-    -Clinical Experience: "/clinical-experience/"
+    - Clinical Experience: "/clinical-experience/"
 
 avatar: "/assets/img/ariilm.jpg"
 
