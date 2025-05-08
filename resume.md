@@ -4,21 +4,20 @@ title:  Resume
 permalink: /resume/
 ---
 
-## Experience
+## Professional Experience
 
-**NASA** - National Aeronautics and Space Administration &bull; Internship;
-*June 2023 - Present*
-Pasadena, CA United States &bull; On-site
+**CVS Pharmacy** - Full-Time; Certified Pharmacy Technician 
+*January 2024 - Present*
+Arcadia, CA United States &bull; On-site
 
-Working along side my team with limited funding from NASA, we designed and built an automated algae farm prototype to produce renewable energy in place of mining for limited resources on Mars with a deadline.Using microelectronics, we created a code that would read the temperature of our algae, using 3D printing technology we created tubing in place of PCV pipes. 
+As a CPhT, I dispense, prepare, and distribute medications in compliance with federal and state laws. I build relationships with my patients as well as ensure that the workflow is in par to meeting preformance standards. i also assist in maintaining the pharmacy inventory through cycle counts and inventory check-in, both done daily, and monthly expires, which are labeled, pulled, and processed accordingly. At drop-off I help enter patient information, prescriptions, and insurance properly while answering phones, patient conerns, and checking in/preparing vaccines. Daily I use my knowledge of SIG codes, vaccine information, and prescription handling to ensure a smooth process for myself and the pharmacist. 
 
-**Skills**: 
-Computer-Aided Design (CAD), C (Programming Language), Project Management, Project Planning, Architectural Design, Engineering
+**Skills**: Prescription processing & Data entry, Medication Preparation, Drug storage compliance, RxConnect, EHR/EMR, Conflict Resolution, Workflow prioritization 
 
 --- 
 
-**ALDO Group** &bull; Part-time
-*April 2023 - Present*
+**LOVISA Pty Ltd** &bull; Full-time
+*April 2023 - December 2024*
 Arcadia, California, United States &bull; On-site
 
 I assisted in making and maintaining KPIs and individual goals, working alongside co-workers to meet store goals. Utilizing my ability to multitask, I help out multiple guest while maintaining a clean store, answering and guiding my associates, and keeping current product knowledge all while providing the utmost customer service. 
@@ -27,7 +26,7 @@ I assisted in making and maintaining KPIs and individual goals, working alongsid
 
 ---
 
-**RITE AID** &bull; Part-Time
+**RITE AID** &bull; Full-Time
 *September 2022 - May 2023** &bull; On-site
 Pasadena, California, United States &bull; On-site
 
@@ -62,7 +61,7 @@ San Dimas, California, United States &bull; On-site
 
 Grade: Sophomore
 
-Activities and Societies: Honors Program, MESA TRIO, DSPS
+Activities and Societies: Equipo,MESA TRIO, DSPS
 
 ---
 
@@ -71,7 +70,7 @@ Activities and Societies: Honors Program, MESA TRIO, DSPS
 
 Grade: 3.8 GPA
 
-Activities and Societies: Golf, Piano Club
+Activities and Societies: Golf, Piano Club, Honor roll
 
 ## Volunteering
 
