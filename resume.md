@@ -16,7 +16,7 @@ As a CPhT, I dispense, prepare, and distribute medications in compliance with fe
 
 --- 
 
-**LOVISA Pty Ltd** &bull; Full-time
+**LOVISA Pty Ltd** &bull; Full-time; Assistant Store Manager
 *April 2023 - December 2024*
 Arcadia, California, United States &bull; On-site
 
@@ -26,7 +26,7 @@ I assisted in making and maintaining KPIs and individual goals, working alongsid
 
 ---
 
-**RITE AID** &bull; Full-Time
+**RITE AID** &bull; Full-Time; Sales Supervisor 
 *September 2022 - May 2023** &bull; On-site
 Pasadena, California, United States &bull; On-site
 
@@ -36,7 +36,7 @@ I supervised both the shipment team and the sales team, overseeing both the rest
 
 ---
 
-**AMC Theatres** &bull; Part-time
+**AMC Theatres** &bull; Part-time; Crew Member
 *February 2022 - October 2022*
 Arcadia, California, United States &bull; On-site
 
@@ -46,7 +46,7 @@ With knowledge of all sections, I became a versatile leader helping with the pla
 
 ---
 
-**CCV Cafe** &bull; Full-time
+**CCV Cafe** &bull; Full-time; Shift Lead
 *January 2019 - March 2020*
 San Dimas, California, United States &bull; On-site
 
