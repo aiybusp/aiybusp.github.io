@@ -8,4 +8,4 @@ tags: []
 comments: false 
 ---
 
-This website evolves as my academic and professional career doe. Feel free to connect with me on [LinkedIn](https://linkedin.com/in/arimoya)
+This website evolves as my academic and professional career does. Feel free to connect with me on **[LinkedIn](https://linkedin.com/in/arimoya)**
