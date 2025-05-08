@@ -13,7 +13,7 @@ navbar-links:
   Case Studies: "/case-studies/"
   Testimonials and References: "/testimonials-and-refrences/"
 
-avatar: /assets/img/headshot.2025.png
+avatar: /assets/img/headshot.2025.png class="avatar"
 
 round-avatar: true
 
