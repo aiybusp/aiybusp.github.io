@@ -28,7 +28,7 @@ To accomplish these tasks, I effectively employed my graphic design acumen using
 
 <pre>
 <div style="border: 3px solid #ccc; padding: 4px; border-radius: 10px;">
-Cardiology Medical Group of San Gabriel Vally<br>
+Cardiology Medical Group of San Gabriel Valley<br>
 </div>
 </pre>
 *Administrative Assistant July 2017-September 2019*
