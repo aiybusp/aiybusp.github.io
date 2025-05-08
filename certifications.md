@@ -5,7 +5,7 @@ permalink: "Certifications"
 ---
 <h1 style="text-align: center;">
   <i>Certifications and Licences</i></h1>
-<h2> This page holds my credential and licensing information.</h2>
+<h2 style="text-align: center;"> This page holds my credential and licensing information.</h2>
 
 
 <h3 style="color: #007BA7; font-style: italic; text-align: center;" >
