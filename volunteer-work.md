@@ -6,7 +6,7 @@ cover-img: /assets/img/joel-muniz-A4Ax1ApccfA-unsplash.jpg
 ---
 
 <pre>
-## Temple City Girls Golf
+# **Temple City Girls Golf**
 </pre>
 *Alumni Coach July 2022-January 2025*
 
