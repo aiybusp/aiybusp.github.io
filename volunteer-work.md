@@ -27,7 +27,7 @@ In my role, I successfully spearheaded the design and implementation of signage 
 To accomplish these tasks, I effectively employed my graphic design acumen using a range of tools such as Adobe Creative Suite, Design Space, Canva, and Procreate. Additionally, I demonstrated my proficiency in Microsoft Office Suite, with a primary focus on Excel for data management, Teams for collaboration, and PowerPoint for presentation creation.
 
 <pre>
-<div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="border: 1px solid #ccc; padding: 10px; border-radius: 10px;">
 Cardiology Medical Group of San Gabriel Vally
 </div>
 </pre>
