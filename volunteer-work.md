@@ -6,8 +6,9 @@ cover-img: /assets/img/joel-muniz-A4Ax1ApccfA-unsplash.jpg
 ---
 
 <pre>
-<div style="border: 4px solid #ccc; padding: 3px; border-radius: 5px;">
+<div style="border: 4px solid #ccc; padding: 3px; border-radius: 5px;background-color: rgba(128, 128, 128, 0.3)">
 Temple City Girls Golf
+
 </div>
 </pre>
 *Alumni Coach July 2022-January 2025*
@@ -26,8 +27,9 @@ In my role, I successfully spearheaded the design and implementation of signage 
 To accomplish these tasks, I effectively employed my graphic design acumen using a range of tools such as Adobe Creative Suite, Design Space, Canva, and Procreate. Additionally, I demonstrated my proficiency in Microsoft Office Suite, with a primary focus on Excel for data management, Teams for collaboration, and PowerPoint for presentation creation.
 
 <pre>
-<div style="border: 4px solid #ccc; padding: 3px; border-radius: 5px;">
+<div style="border: 4px solid #ccc; padding: 3px; border-radius: 5px;background-color: rgba(128, 128, 128, 0.3)">
 Cardiology Medical Group of SGV
+
 </div>
 </pre>
 *Administrative Assistant July 2017-September 2019*
