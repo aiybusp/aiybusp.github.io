@@ -6,7 +6,9 @@ cover-img: /assets/img/joel-muniz-A4Ax1ApccfA-unsplash.jpg
 ---
 
 <pre>
->**Temple City Girls Golf**
+<div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+Temple City Girls Golf
+</div>
 </pre>
 *Alumni Coach July 2022-January 2025*
 
