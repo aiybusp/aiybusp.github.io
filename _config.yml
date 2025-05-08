@@ -15,6 +15,13 @@ navbar-links:
   Contact me: "/Contact-me/"
 
 avatar: /assets/img/headshot.2025.png
+img.avatar {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: circle;
+}
 
 round-avatar: true
 
