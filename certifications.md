@@ -12,7 +12,7 @@ permalink: "Certifications"
 Certified Pharmacy Technician</h3>
 <h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
   <i>Pharmacy Technician Certification Board (PTCB)</i></h5>
-<h6 text-align: center;>
+<h6 style="text-align: center;">
 Issued Apr 2025 · Expires Apr 2027 </h6>
 <p style="text-align: center;">
   Credential ID: 30301953
@@ -22,7 +22,7 @@ Issued Apr 2025 · Expires Apr 2027 </h6>
 Certified Pharmacy Technician</h3>
 <h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
   <i>National Healthcareer Association</i></h5>
-<h6 text-align: center>
+<h6 style="text-align: center">
 Issued Mar 2025 · Expired Mar 2027 </h6>
 <p style="text-align: center;">
 Credential ID: SN8N4B3
@@ -32,7 +32,7 @@ Credential ID: SN8N4B3
 Pharmacy Technician</h3>
 <h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
   <i>California Board of Pharmacy</i></h5>
-<h6 text-align: center;>
+<h6 style="text-align: center;">
 Issued Nov 2024 · Expired Jul 2026 </h6>
 <p style="text-align: center;">
 Credential ID: TCH 201693
@@ -43,7 +43,7 @@ Credential ID: TCH 201693
 California Food Handler Card</h3>
 <h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
   <i>AAA Food Handler</i></h5>
-<h6 text-align: center; >
+<h6 style= "text-align: center;" >
 </h6>
 Issued Apr 2023 · Expires Apr 2026 </h6>
 <p style="text-align: center;">
