@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: Certifications 
-permalink: /certifications/
+permalink: "Certifications"
 ---
 <h1>Certifications and Licences</h1>
 <h2> This page holds my credential and licensing information.</h2>
