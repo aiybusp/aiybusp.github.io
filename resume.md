@@ -71,23 +71,3 @@ Activities and Societies: Equipo,MESA TRIO, DSPS
 Grade: 3.8 GPA
 
 Activities and Societies: Golf, Piano Club, Honor roll
-
-## Volunteering
-
-**Alumni Coach**
-*Temple City High School*
-*July 2022 - Present*
-
-Throughout the golf season, I dedicate my time as a volunteer, playing a vital role in guiding the junior varsity team. My responsibilities involve augmenting the efforts of the head coach by leading practice sessions, overseeing matches, and fostering team cohesion through bonding activities. I act as a liaison between the girls and the head coach, ensuring smooth and effective communication.
-
-My commitment extends beyond the golf course as I provide unwavering support to the team members in their personal growth. I am dedicated to fostering their self-confidence, which, I believe, reflects positively in their performance during the games.
-
----
-
-**Parent/Family Volunteer**
-*Eugene Field Elementary School*
-*March 2020 - Present*
-
-In my role, I successfully spearheaded the design and implementation of signage for numerous events, which included the annual student fundraiser, the annual gala auction, the yearbook production, and various monthly celebrations with an educational focus. My responsibilities extended beyond the creative aspect to logistical coordination, including acknowledging donors. I managed to categorize these benefactors based on their contribution levels and preference for anonymity or recognition under their personal or business names.
-
-To accomplish these tasks, I effectively employed my graphic design acumen using a range of tools such as Adobe Creative Suite, Design Space, Canva, and Procreate. Additionally, I demonstrated my proficiency in Microsoft Office Suite, with a primary focus on Excel for data management, Teams for collaboration, and PowerPoint for presentation creation.
