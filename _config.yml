@@ -10,8 +10,8 @@ navbar-links:
     - NASA Internship: "/nasa-internship/"
     - Volunteer Work: "/volunteer-work/"
     - Clinical Experience: "/clinical-experience/"
-Case Studies: "/case-studies/"
-Testimonials and References: "/testimonials-and-refrences/"
+  Case Studies: "/case-studies/"
+  Testimonials and References: "/testimonials-and-refrences/"
 
 avatar: "/assets/img/ariilm.jpg"
 
