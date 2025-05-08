@@ -6,8 +6,8 @@ cover-img: /assets/img/joel-muniz-A4Ax1ApccfA-unsplash.jpg
 ---
 
 <pre>
-<div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-Temple City Girls Golf
+<div style="border: 4px solid #ccc; padding: 3px; border-radius: 5px;">
+Temple City Girls Golf<br>
 </div>
 </pre>
 *Alumni Coach July 2022-January 2025*
@@ -17,7 +17,7 @@ My commitment to the team extended beyond the greens as I provided unwavering su
 Although my time as a coach has ended with my girls all graduated, I am proud of the bonds Ive made and the small part I was honored to play in their development. I will continue my role as a Alumni Coach for any future junior varsity team as I was immensely proud. 
 
 <pre>
-<div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="border: 4px solid #ccc; padding: 3px; border-radius: 5px;">
 Euguene Field Elementry School
 </div>
 </pre>
@@ -27,8 +27,8 @@ In my role, I successfully spearheaded the design and implementation of signage 
 To accomplish these tasks, I effectively employed my graphic design acumen using a range of tools such as Adobe Creative Suite, Design Space, Canva, and Procreate. Additionally, I demonstrated my proficiency in Microsoft Office Suite, with a primary focus on Excel for data management, Teams for collaboration, and PowerPoint for presentation creation.
 
 <pre>
-<div style="border: 1px solid #ccc; padding: 10px; border-radius: 10px;">
-Cardiology Medical Group of San Gabriel Vally
+<div style="border: 3px solid #ccc; padding: 4px; border-radius: 10px;">
+Cardiology Medical Group of San Gabriel Vally<br>
 </div>
 </pre>
 *Administrative Assistant July 2017-September 2019*
