@@ -44,7 +44,7 @@ California Food Handler Card</h3>
 <h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
   <i>AAA Food Handler</i></h5>
 <h6 style= "text-align: center;" >
-</h6>
+style="text-align: center;">
 Issued Apr 2023 · Expires Apr 2026 </h6>
 <p style="text-align: center;">
 Credential ID: 1680495760-10-72938
