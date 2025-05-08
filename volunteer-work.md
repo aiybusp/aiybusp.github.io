@@ -15,6 +15,8 @@ My commitment to the team extended beyond the greens as I provided unwavering su
 Although my time as a coach has ended with my girls all graduated, I am proud of the bonds Ive made and the small part I was honored to play in their development. I will continue my role as a Alumni Coach for any future junior varsity team as I was immensely proud. 
 
 
+
+
 <div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px; background-color: rgba(128, 128, 128, 0.3)">
     Euguene Field Elementry School 
 
@@ -22,6 +24,8 @@ Although my time as a coach has ended with my girls all graduated, I am proud of
 *Parent/Family Voulenteer March 2020-May 2024*
 In my role, I successfully spearheaded the design and implementation of signage for numerous events, which included the annual student fundraiser, the annual gala auction, the yearbook production, and various monthly celebrations with an educational focus. My responsibilities extended beyond the creative aspect to logistical coordination, including acknowledging donors. I managed to categorize these benefactors based on their contribution levels and preference for anonymity or recognition under their personal or business names.
 To accomplish these tasks, I effectively employed my graphic design acumen using a range of tools such as Adobe Creative Suite, Design Space, Canva, and Procreate. Additionally, I demonstrated my proficiency in Microsoft Office Suite, with a primary focus on Excel for data management, Teams for collaboration, and PowerPoint for presentation creation.
+
+
 
 
 <div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px;background-color: rgba(128, 128, 128, 0.3)">
