@@ -5,8 +5,8 @@ permalink: /volunteer-work/
 cover-img: /assets/img/joel-muniz-A4Ax1ApccfA-unsplash.jpg
 ---
 
-<div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px;background-color: rgba(128, 128, 128, 0.3)">
-    Temple City Girls Golf
+<div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px;background-color: rgba(128, 128, 128, 0.3);text-align: center">
+Temple City Girls Golf
 
 </div>
 *Alumni Coach July 2022-January 2025*
@@ -18,8 +18,8 @@ Although my time as a coach has ended with my girls all graduated, I am proud of
 
 
 
-<div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px; background-color: rgba(128, 128, 128, 0.3)">
-    Euguene Field Elementry School 
+<div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px; background-color: rgba(128, 128, 128, 0.3);text-align: center">
+Euguene Field Elementry School 
 
 </div>
 *Parent/Family Voulenteer March 2020-May 2024*
@@ -30,8 +30,8 @@ To accomplish these tasks, I effectively employed my graphic design acumen using
 
 
 
-<div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px;background-color: rgba(128, 128, 128, 0.3)">
-    Cardiology Medical Group of SGV
+<div style="border: 4px solid #2e003e; padding: 3px; border-radius: 5px;background-color: rgba(128, 128, 128, 0.3);text-align: center">
+Cardiology Medical Group of SGV
 
 </div>
 *Administrative Assistant July 2017-September 2019*
