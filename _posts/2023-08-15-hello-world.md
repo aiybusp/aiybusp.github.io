@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hi friend! 
-subtitle:Welcome to my Website.
+subtitle: Welcome to my Website.
 cover-img: /assets/img/pawel-czerwinski-jC-eAIFefOM-unsplash.jpg
 thumbnail-img: /assets/img/pawel-czerwinski-jC-eAIFefOM-unsplash.jpg
 tags: []
