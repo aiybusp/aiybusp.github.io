@@ -14,15 +14,7 @@ navbar-links:
   Testimonials and References: "/testimonials-and-refrences/"
   Contact me: "/Contact-me/"
 
-avatar: <img src="/assets/img/headshot.2025.png" alt="My headshot" class="avatar">
-
-img.avatar {
-  width: 150px; 
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: circle;
-}
+avatar: /assets/img/headshot.2025.png
 
 round-avatar: true
 
