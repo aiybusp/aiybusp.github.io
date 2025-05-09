@@ -3,8 +3,12 @@ layout: page
 title: Certifications 
 permalink: "Certifications"
 ---
-<h1 style="text-align: center;">
-  <i>Certifications and Licences</i></h1>
+<p align="center">
+  <img src="/assets/img/Certificationshead.png" alt="Certifications Header" style="width:100%; max-height:300px; object-fit:cover; display:block;">
+</p>
+
+
+  
 <h2 style="text-align: center;"> This page holds my credential and licensing information.</h2>
 
 
