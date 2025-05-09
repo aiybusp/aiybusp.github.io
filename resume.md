@@ -59,12 +59,12 @@ San Dimas, California, United States &bull; On-site
 ## Education
 
 **Pasadena City College**
-*Associate of Science for Transfer - AST, Biomedical/Medical Engineering*
-*June 2023 - July 2025*
+*Associate Degree in Nursing- ADN*
+*June 2025 - November 2027*
 
 Grade: Sophomore
 
-Activities and Societies: Equipo,MESA TRIO, DSPS
+Activities and Societies: Equipo, MESA TRIO, DSPS
 
 ---
 
