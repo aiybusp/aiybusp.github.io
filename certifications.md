@@ -46,5 +46,5 @@ California Food Handler Card</h3>
 <h6 style= "text-align: center;" >
 Issued Apr 2023 · Expires Apr 2026 </h6>
 <p style="text-align: center;">
-Credential ID: <a href="/assets/img/FoodHandlersCard.png" target="_blank">1680495760-10-72938</a>
+Credential ID: <a href="https://arimariemoya.com/assets/img/FoodHandlersCard.png" target="_blank">1680495760-10-72938</a>
 </p>
