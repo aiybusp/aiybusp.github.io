@@ -1,6 +1,6 @@
 ---
 layout: post
-title <div style="text-align:center;">
+title: <div style="text-align:center;">
 Hi friend! 
 </div>
 subtitle: <div style="text-align:center;">
