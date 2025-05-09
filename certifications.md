@@ -1,6 +1,5 @@
 ---
-layout: page 
-title: Certifications 
+layout: page  
 permalink: "Certifications"
 ---
 <p align="center">
