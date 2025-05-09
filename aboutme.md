@@ -1,6 +1,5 @@
 ---
 layout: page 
-title: About Me 
 permalink: /about-ari-moya/
 subtitle: Ari Moya
 ---
