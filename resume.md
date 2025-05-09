@@ -13,7 +13,7 @@ permalink: /resume/
 *January 2024 - Present*
 Arcadia, CA United States &bull; On-site
 
-As a CPhT, I dispense, prepare, and distribute medications in compliance with federal and state laws. I build relationships with my patients as well as ensure that the workflow is in par to meeting preformance standards. i also assist in maintaining the pharmacy inventory through cycle counts and inventory check-in, both done daily, and monthly expires, which are labeled, pulled, and processed accordingly. At drop-off I help enter patient information, prescriptions, and insurance properly while answering phones, patient conerns, and checking in/preparing vaccines. Daily I use my knowledge of SIG codes, vaccine information, and prescription handling to ensure a smooth process for myself and the pharmacist. 
+As a CPhT, I dispense, prepare, and distribute medications in compliance with federal and state laws. I build relationships with my patients as well as ensure that the workflow is in par to meeting preformance standards. I also assist in maintaining the pharmacy inventory through cycle counts and inventory check-in, both done daily, and monthly expires, which are labeled, pulled, and processed accordingly. At drop-off I help enter patient information, prescriptions, and insurance properly while answering phones, patient conerns, and checking in/preparing vaccines. Daily I use my knowledge of SIG codes, vaccine information, and prescription handling to ensure a smooth process for myself and the pharmacist. 
 
 **Skills**: Prescription processing & Data entry, Medication Preparation, Drug storage compliance, RxConnect, EHR/EMR, Conflict Resolution, Workflow prioritization 
 
