@@ -15,7 +15,7 @@ Certified Pharmacy Technician</h3>
 <h6 style="text-align: center;">
 Issued Apr 2025 · Expires Apr 2027 </h6>
 <p style="text-align: center;">
-  Credential ID: <a href="/assets/img/CPht%20PTCB.png" target="_blank">30301953</a>
+  Credential ID: <a href="/assets/img/CPhT%20PTCB.png" target="_blank">30301953</a>
 </p>
 
 <h3 style="color: #007BA7; font-style: italic; text-align: center;" >
