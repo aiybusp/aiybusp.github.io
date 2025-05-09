@@ -3,24 +3,28 @@ layout: page
 title: Contact Me
 permalink: /Contact-me/
 ---
+<div style="max-width: 600px; margin: 0 auto; font-family: 'Segoe UI', sans-serif; background-color: #f5f3ff; padding: 30px; border-radius: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <h2 style="text-align: center; color: #7c3aed;">Let’s Connect</h2>
 
-<form action="https://formspree.io/f/xvgaqonn" method="POST" style="max-width: 600px; margin: 0 auto; font-family: sans-serif;">
-  <label for="first-name">First Name *</label><br>
-  <input type="text" name="first-name" required style="width: 100%; padding: 8px; margin-bottom: 15px;"><br>
+  <form action="https://formspree.io/f/xvgaqonn" method="POST">
+    <label for="first-name" style="font-weight: bold;">First Name *</label><br>
+    <input type="text" name="first-name" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 15px;"><br>
 
-  <label for="last-name">Last Name *</label><br>
-  <input type="text" name="last-name" required style="width: 100%; padding: 8px; margin-bottom: 15px;"><br>
+    <label for="last-name" style="font-weight: bold;">Last Name *</label><br>
+    <input type="text" name="last-name" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 15px;"><br>
 
-  <label for="email">Email Address *</label><br>
-  <input type="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 15px;"><br>
+    <label for="email" style="font-weight: bold;">Email Address *</label><br>
+    <input type="email" name="email" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 15px;"><br>
 
-  <label for="message">Comments / Questions *</label><br>
-  <textarea name="message" rows="5" required style="width: 100%; padding: 8px; margin-bottom: 20px;"></textarea><br>
+    <label for="message" style="font-weight: bold;">Comments / Questions *</label><br>
+    <textarea name="message" rows="5" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px;"></textarea><br>
 
-  <!-- Anti-spam hidden field -->
-  <input type="text" name="_gotcha" style="display: none;">
+    <input type="text" name="_gotcha" style="display: none;">
 
-  <button type="submit" style="background-color: #2a5b9d; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
-    Send Message
-  </button>
-</form>
+    <div style="text-align: center;">
+      <button type="submit" style="background-color: #7c3aed; color: white; padding: 12px 24px; border: none; border-radius: 25px; font-weight: bold; cursor: pointer;">
+        Send Message
+      </button>
+    </div>
+  </form>
+</div>
