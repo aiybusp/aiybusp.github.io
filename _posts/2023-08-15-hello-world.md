@@ -1,11 +1,7 @@
 ---
 layout: post
-title: <div style="text-align:center;">
-Hi friend! 
-</div>
-subtitle: <div style="text-align:center;">
-Welcome to my Website.
-</div>
+title: Hi friend! 
+subtitle:Welcome to my Website.
 cover-img: /assets/img/pawel-czerwinski-jC-eAIFefOM-unsplash.jpg
 thumbnail-img: /assets/img/pawel-czerwinski-jC-eAIFefOM-unsplash.jpg
 tags: []
