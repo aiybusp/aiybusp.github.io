@@ -25,7 +25,7 @@ Certified Pharmacy Technician</h3>
 <h6 style="text-align: center">
 Issued Mar 2025 · Expired Mar 2027 </h6>
 <p style="text-align: center;">
-Credential ID: SN8N4B3
+Credential ID:  <a href="/assets/img/Certificate%20-%20ExCPT.png" target="_blank">SN8N4B3</a>
 </p>
 
 <h3 style="color: #007BA7; font-style: italic; text-align: center;" >
@@ -35,7 +35,7 @@ Pharmacy Technician</h3>
 <h6 style="text-align: center;">
 Issued Nov 2024 · Expired Jul 2026 </h6>
 <p style="text-align: center;">
-Credential ID: TCH 201693
+Credential ID:  <a href="/assets/img/CaBOP.png" target="_blank">TCH 201693</a>
 </p>
 
 
@@ -46,5 +46,5 @@ California Food Handler Card</h3>
 <h6 style= "text-align: center;" >
 Issued Apr 2023 · Expires Apr 2026 </h6>
 <p style="text-align: center;">
-Credential ID: 1680495760-10-72938
+Credential ID: <a href="/assets/img/FoodHandlersCard.png" target="_blank">1680495760-10-72938</a>
 </p>
