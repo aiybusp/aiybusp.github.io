@@ -3,6 +3,10 @@ layout: page
 title:  Resume
 permalink: /resume/
 ---
+<p align="center">
+  <img src="/assets/img/ResumeHeader.png" alt="Resume Page Header" style="width:100%; max-height:300px; object-fit:cover;">
+</p>
+
 
 ## Professional Experience
 
