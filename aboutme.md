@@ -4,6 +4,9 @@ title: About Me
 permalink: /about-ari-moya/
 subtitle: Ari Moya
 ---
+<p align="center">
+  <img src="/assets/img/about%20me%20header.png" alt="About Me Header" style="width:100%; max-height:300px; object-fit:cover;">
+</p>
 
 Hi! Im Ari, a dedicated and driven future nurse with a strong foundation in patient care, medical terminology, and leadership. Im currently pursuing my Associate Degree in Nursing through Pasadena City College and have recently graduated top of my class in Medical Assisting, earning my Certified Clinical Medical Assistant (CCMA) credential. 
 
