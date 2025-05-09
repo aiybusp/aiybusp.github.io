@@ -8,7 +8,6 @@ permalink: /resume/
 </p>
 
 
-## Professional Experience
 
 **CVS Pharmacy** - Full-Time; Certified Pharmacy Technician 
 *January 2024 - Present*
