@@ -3,3 +3,6 @@ layout: page
 title: Case Studies 
 permalink: /case-studies/
 ---
+<p align="center">
+  <img src="/assets/img/ComingSoon.png" alt="Coming Soon Header" style="width:100%; max-height:300px; object-fit:cover; display:block;">
+</p>
