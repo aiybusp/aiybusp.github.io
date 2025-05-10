@@ -11,7 +11,7 @@ permalink: "Certifications"
 <h2 style="text-align: center;"> This page holds my credential and licensing information.</h2>
 
 <h3 style="color: #007BA7; font-style: italic; text-align: center;" >
-Certified Clinical Medical Assistant/h3>
+Certified Clinical Medical Assistant </h3>
 <h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
   <i>National Heathcareer Association (NHA)</i></h5>
 <h6 style="text-align: center;">
