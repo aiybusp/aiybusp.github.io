@@ -10,6 +10,15 @@ permalink: "Certifications"
   
 <h2 style="text-align: center;"> This page holds my credential and licensing information.</h2>
 
+<h3 style="color: #007BA7; font-style: italic; text-align: center;" >
+Certified Clinical Medical Assistant/h3>
+<h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
+  <i>National Heathcareer Association (NHA)</i></h5>
+<h6 style="text-align: center;">
+Issued May 2025 · Expires May 2027 </h6>
+<p style="text-align: center;">
+  Credential ID: <a href="/assets/img/Certificate-CCMA.png" target="_blank">A7H6N9W6</a>
+</p>
 
 <h3 style="color: #007BA7; font-style: italic; text-align: center;" >
 Certified Pharmacy Technician</h3>
@@ -24,7 +33,7 @@ Issued Apr 2025 · Expires Apr 2027 </h6>
 <h3 style="color: #007BA7; font-style: italic; text-align: center;" >
 Certified Pharmacy Technician</h3>
 <h5 style="color: #B0C4DE; font-style: italic; text-align: center;" >
-  <i>National Healthcareer Association</i></h5>
+  <i>National Healthcareer Association (NHA)</i></h5>
 <h6 style="text-align: center">
 Issued Mar 2025 · Expired Mar 2027 </h6>
 <p style="text-align: center;">
