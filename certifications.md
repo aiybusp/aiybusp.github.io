@@ -17,7 +17,7 @@ Certified Clinical Medical Assistant </h3>
 <h6 style="text-align: center;">
 Issued May 2025 · Expires May 2027 </h6>
 <p style="text-align: center;">
-  Credential ID: <a href="/assets/img/Certificate-CCMA.png" target="_blank">A7H6N9W6</a>
+  Credential ID: <a href="/assets/img/Certificate - CCMA.png" target="_blank">A7H6N9W6</a>
 </p>
 
 <h3 style="color: #007BA7; font-style: italic; text-align: center;" >
