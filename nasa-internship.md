@@ -24,61 +24,111 @@ How we would have liked to improve our project given either more time or a large
 
 
 
+<!-- ====== NASA BUTTON CAROUSEL ====== -->
+<div class="carousel" id="nasa-carousel" aria-roledescription="carousel" aria-label="NASA Gallery">
+  <div class="carousel__viewport">
+    <div class="carousel__track" role="group" aria-live="polite">
 
-<!-- === NASA PROJECT CAROUSEL (CSS-ONLY, SCROLL-SNAP) === -->
-<div class="snap-carousel" aria-label="NASA Gallery">
+      <!-- Slides (use your exact filenames/paths) -->
+      <div class="carousel__slide" aria-label="1 of 24"><img src="/nasa-pics/frame.HEIC" alt="Frame"><div class="carousel__caption">Frame</div></div>
+      <div class="carousel__slide" aria-label="2 of 24"><img src="/nasa-pics/frame2.HEIC" alt="Frame 2"><div class="carousel__caption">Frame 2</div></div>
+      <div class="carousel__slide" aria-label="3 of 24"><img src="/nasa-pics/frameandpiping.HEIC" alt="Frame and Piping"><div class="carousel__caption">Frame &amp; Piping</div></div>
+      <div class="carousel__slide" aria-label="4 of 24"><img src="/nasa-pics/frameinposition.JPG" alt="Frame in Position"><div class="carousel__caption">Frame in Position</div></div>
+      <div class="carousel__slide" aria-label="5 of 24"><img src="/nasa-pics/grouppic.HEIC" alt="Group Picture"><div class="carousel__caption">Group Picture</div></div>
+      <div class="carousel__slide" aria-label="6 of 24"><img src="/nasa-pics/headshot.2025.img" alt="Headshot"><div class="carousel__caption">Headshot</div></div>
+      <div class="carousel__slide" aria-label="7 of 24"><img src="/nasa-pics/inaction.HEIC" alt="In Action"><div class="carousel__caption">In Action</div></div>
+      <div class="carousel__slide" aria-label="8 of 24"><img src="/nasa-pics/indetailblueprints.heic" alt="In-Detail Blueprints"><div class="carousel__caption">In-Detail Blueprints</div></div>
+      <div class="carousel__slide" aria-label="9 of 24"><img src="/nasa-pics/initialblueprint.JPG" alt="Initial Blueprint"><div class="carousel__caption">Initial Blueprint</div></div>
+      <div class="carousel__slide" aria-label="10 of 24"><img src="/nasa-pics/pipeline%20connectors.JPG" alt="Pipeline Connectors"><div class="carousel__caption">Pipeline Connectors</div></div>
+      <div class="carousel__slide" aria-label="11 of 24"><img src="/nasa-pics/piping.JPG" alt="Piping"><div class="carousel__caption">Piping</div></div>
+      <div class="carousel__slide" aria-label="12 of 24"><img src="/nasa-pics/piping2.JPG" alt="Piping 2"><div class="carousel__caption">Piping 2</div></div>
+      <div class="carousel__slide" aria-label="13 of 24"><img src="/nasa-pics/pipingconnected.HEIC" alt="Piping Connected"><div class="carousel__caption">Piping Connected</div></div>
+      <div class="carousel__slide" aria-label="14 of 24"><img src="/nasa-pics/presentationpic.HEIC" alt="Presentation"><div class="carousel__caption">Presentation</div></div>
+      <div class="carousel__slide" aria-label="15 of 24"><img src="/nasa-pics/raspberrypi.HEIC" alt="Raspberry Pi"><div class="carousel__caption">Raspberry Pi</div></div>
+      <div class="carousel__slide" aria-label="16 of 24"><img src="/nasa-pics/raspberrypiearduino.HEIC" alt="Raspberry Pi & Arduino"><div class="carousel__caption">Raspberry Pi + Arduino</div></div>
+      <div class="carousel__slide" aria-label="17 of 24"><img src="/nasa-pics/abstractdigital.jpg" alt="Abstract Digital"><div class="carousel__caption">Abstract Digital</div></div>
+      <div class="carousel__slide" aria-label="18 of 24"><img src="/nasa-pics/algaesamples.HEIC" alt="Algae Samples"><div class="carousel__caption">Algae Samples</div></div>
+      <div class="carousel__slide" aria-label="19 of 24"><img src="/nasa-pics/algaeupclose.HEIC" alt="Algae Up Close"><div class="carousel__caption">Algae Up Close</div></div>
+      <div class="carousel__slide" aria-label="20 of 24"><img src="/nasa-pics/arduinosaudtered.HEIC" alt="Arduino Soldered"><div class="carousel__caption">Arduino Soldered</div></div>
+      <div class="carousel__slide" aria-label="21 of 24"><img src="/nasa-pics/brainstormforidea.PNG" alt="Brainstorm for Idea"><div class="carousel__caption">Brainstorm for Idea</div></div>
+      <div class="carousel__slide" aria-label="22 of 24"><img src="/nasa-pics/code.HEIC" alt="Code"><div class="carousel__caption">Code</div></div>
+      <div class="carousel__slide" aria-label="23 of 24"><img src="/nasa-pics/conceptofwiring.jpg" alt="Concept of Wiring"><div class="carousel__caption">Concept of Wiring</div></div>
 
-  <figure><img src="/nasa-pics/frame.HEIC" alt="Frame"><figcaption>Frame</figcaption></figure>
-  <figure><img src="/nasa-pics/frame2.HEIC" alt="Frame 2"><figcaption>Frame 2</figcaption></figure>
-  <figure><img src="/nasa-pics/frameandpiping.HEIC" alt="Frame and Piping"><figcaption>Frame & Piping</figcaption></figure>
-  <figure><img src="/nasa-pics/frameinposition.JPG" alt="Frame in Position"><figcaption>Frame in Position</figcaption></figure>
-  <figure><img src="/nasa-pics/grouppic.HEIC" alt="Group Picture"><figcaption>Group Picture</figcaption></figure>
-  <figure><img src="/nasa-pics/headshot.2025.img" alt="Headshot"><figcaption>Headshot</figcaption></figure>
-  <figure><img src="/nasa-pics/inaction.HEIC" alt="In Action"><figcaption>In Action</figcaption></figure>
-  <figure><img src="/nasa-pics/indetailblueprints.heic" alt="In Detail Blueprints"><figcaption>In Detail Blueprints</figcaption></figure>
-  <figure><img src="/nasa-pics/initialblueprint.JPG" alt="Initial Blueprint"><figcaption>Initial Blueprint</figcaption></figure>
-  <figure><img src="/nasa-pics/pipeline%20connectors.JPG" alt="Pipeline Connectors"><figcaption>Pipeline Connectors</figcaption></figure>
-  <figure><img src="/nasa-pics/piping.JPG" alt="Piping"><figcaption>Piping</figcaption></figure>
-  <figure><img src="/nasa-pics/piping2.JPG" alt="Piping 2"><figcaption>Piping 2</figcaption></figure>
-  <figure><img src="/nasa-pics/pipingconnected.HEIC" alt="Piping Connected"><figcaption>Piping Connected</figcaption></figure>
-  <figure><img src="/nasa-pics/presentationpic.HEIC" alt="Presentation"><figcaption>Presentation</figcaption></figure>
-  <figure><img src="/nasa-pics/raspberrypi.HEIC" alt="Raspberry Pi"><figcaption>Raspberry Pi</figcaption></figure>
-  <figure><img src="/nasa-pics/raspberrypiearduino.HEIC" alt="Raspberry Pi & Arduino"><figcaption>Raspberry Pi + Arduino</figcaption></figure>
-  <figure><img src="/nasa-pics/abstractdigital.jpg" alt="Abstract Digital"><figcaption>Abstract Digital</figcaption></figure>
-  <figure><img src="/nasa-pics/algaesamples.HEIC" alt="Algae Samples"><figcaption>Algae Samples</figcaption></figure>
-  <figure><img src="/nasa-pics/algaeupclose.HEIC" alt="Algae Up Close"><figcaption>Algae Up Close</figcaption></figure>
-  <figure><img src="/nasa-pics/arduinosaudtered.HEIC" alt="Arduino Soldered"><figcaption>Arduino Soldered</figcaption></figure>
-  <figure><img src="/nasa-pics/brainstormforidea.PNG" alt="Brainstorm for Idea"><figcaption>Brainstorm for Idea</figcaption></figure>
-  <figure><img src="/nasa-pics/code.HEIC" alt="Code"><figcaption>Code</figcaption></figure>
-  <figure><img src="/nasa-pics/conceptofwiring.jpg" alt="Concept of Wiring"><figcaption>Concept of Wiring</figcaption></figure>
+    </div>
 
+    <!-- Buttons & Dots -->
+    <button class="carousel__btn carousel__btn--prev" aria-label="Previous" data-action="prev">&#10094;</button>
+    <button class="carousel__btn carousel__btn--next" aria-label="Next" data-action="next">&#10095;</button>
+    <div class="carousel__dots"></div>
+  </div>
 </div>
 
+<!-- Styles (wrapped so Jekyll/Liquid won't touch it) -->
+{% raw %}
 <style>
-  .snap-carousel{
-    display:flex; gap:10px; overflow:auto;
-    scroll-snap-type:x mandatory;
-    padding:10px; border-radius:16px;
-    background:#111; box-shadow:0 8px 30px rgba(0,0,0,.12);
-  }
-  .snap-carousel figure{
-    flex:0 0 85vw; max-width:980px;
-    margin:0; position:relative;
-    scroll-snap-align:center;
-    border-radius:16px; overflow:hidden;
-    background:#000;
-  }
-  .snap-carousel img{
-    display:block; width:100%; height:auto;
-    aspect-ratio:16/9; object-fit:cover;
-  }
-  .snap-carousel figcaption{
-    position:absolute; left:0; right:0; bottom:0;
-    padding:.75rem .9rem;
-    color:#fff; font:500 14px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-    background:linear-gradient(180deg,rgba(0,0,0,0) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.85) 100%);
-    text-shadow:0 1px 2px rgba(0,0,0,.7);
-  }
-  @media (min-width:900px){ .snap-carousel figure{ flex:0 0 70vw; } }
+  :root { --carousel-width:min(100%,980px); --carousel-aspect:16/9; --dot-size:12px; --dot-active-scale:1.25; }
+  .carousel{width:var(--carousel-width);margin:1.5rem auto;position:relative;border-radius:16px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.12);background:#111}
+  .carousel__viewport{aspect-ratio:var(--carousel-aspect);position:relative;overflow:hidden}
+  .carousel__track{display:flex;height:100%;transition:transform .4s ease-in-out;will-change:transform}
+  .carousel__slide{flex:0 0 100%;position:relative;display:grid;place-items:center;background:#000}
+  .carousel__slide img{width:100%;height:100%;object-fit:cover;display:block}
+  .carousel__caption{position:absolute;left:0;right:0;bottom:0;padding:.75rem .9rem;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.55) 64%,rgba(0,0,0,.8) 100%);color:#fff;font:500 14px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;text-shadow:0 1px 2px rgba(0,0,0,.7)}
+  .carousel__btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.45);border:none;color:#fff;width:44px;height:44px;border-radius:999px;display:grid;place-items:center;cursor:pointer}
+  .carousel__btn--prev{left:10px}.carousel__btn--next{right:10px}
+  .carousel__dots{position:absolute;left:0;right:0;bottom:10px;display:flex;gap:8px;justify-content:center}
+  .carousel__dot{width:var(--dot-size);height:var(--dot-size);border-radius:50%;background:rgba(255,255,255,.45);border:0;cursor:pointer;transition:transform .15s ease,background .2s ease}
+  .carousel__dot[aria-current="true"]{background:#fff;transform:scale(var(--dot-active-scale))}
 </style>
-<!-- === /NASA PROJECT CAROUSEL === -->
+{% endraw %}
+
+<!-- Script (wrapped so Jekyll/Liquid won't touch it) -->
+{% raw %}
+<script>
+(function(){
+  const root = document.getElementById('nasa-carousel');
+  if (!root) return;
+  const track = root.querySelector('.carousel__track');
+  const slides = Array.from(root.querySelectorAll('.carousel__slide'));
+  const prev = root.querySelector('[data-action="prev"]');
+  const next = root.querySelector('[data-action="next"]');
+  const dotsWrap = root.querySelector('.carousel__dots');
+  let i = 0;
+
+  // Build dots
+  slides.forEach((_, idx) => {
+    const b = document.createElement('button');
+    b.className='carousel__dot'; b.type='button';
+    b.setAttribute('aria-label', `Go to slide ${idx+1}`);
+    b.addEventListener('click', ()=>go(idx));
+    dotsWrap.appendChild(b);
+  });
+
+  function update(){
+    track.style.transform = `translateX(-${i*100}%)`;
+    dotsWrap.querySelectorAll('.carousel__dot').forEach((d, idx) =>
+      d.setAttribute('aria-current', idx===i ? 'true' : 'false'));
+    slides.forEach((s, idx) => s.setAttribute('aria-hidden', idx===i ? 'false' : 'true'));
+  }
+  function go(n){ i = (n + slides.length) % slides.length; update(); }
+  const nextF = ()=>go(i+1), prevF = ()=>go(i-1);
+
+  next.addEventListener('click', nextF);
+  prev.addEventListener('click', prevF);
+  root.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') nextF();
+    if (e.key === 'ArrowLeft')  prevF();
+  });
+
+  // Swipe
+  let down=false, sx=0, dx=0;
+  const vp = root.querySelector('.carousel__viewport');
+  vp.addEventListener('pointerdown', e => { down=true; sx=e.clientX; dx=0; vp.setPointerCapture(e.pointerId); });
+  vp.addEventListener('pointermove', e => { if(!down) return; dx = e.clientX - sx; });
+  vp.addEventListener('pointerup', () => { if(!down) return; down=false; if(Math.abs(dx) > vp.clientWidth*0.15) (dx<0?nextF():prevF()); dx=0; });
+  vp.addEventListener('pointercancel', () => { down=false; dx=0; });
+
+  update();
+})();
+</script>
+{% endraw %}
+<!-- ====== /NASA BUTTON CAROUSEL ====== -->
