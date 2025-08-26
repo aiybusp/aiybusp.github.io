@@ -24,35 +24,76 @@ How we would have liked to improve our project given either more time or a large
 
 
 
-<!-- ====== NASA BUTTON CAROUSEL ====== -->
+
+<!-- ====== NASA INTERNSHIP CAROUSEL ====== -->
 <div class="carousel" id="nasa-carousel" aria-roledescription="carousel" aria-label="NASA Gallery">
   <div class="carousel__viewport">
     <div class="carousel__track" role="group" aria-live="polite">
 
-      <!-- Slides (use your exact filenames/paths) -->
-      <div class="carousel__slide" aria-label="1 of 24"><img src="/nasa-pics/frame.HEIC" alt="Frame"><div class="carousel__caption">Frame</div></div>
-      <div class="carousel__slide" aria-label="2 of 24"><img src="/nasa-pics/frame2.HEIC" alt="Frame 2"><div class="carousel__caption">Frame 2</div></div>
-      <div class="carousel__slide" aria-label="3 of 24"><img src="/nasa-pics/frameandpiping.HEIC" alt="Frame and Piping"><div class="carousel__caption">Frame &amp; Piping</div></div>
-      <div class="carousel__slide" aria-label="4 of 24"><img src="/nasa-pics/frameinposition.JPG" alt="Frame in Position"><div class="carousel__caption">Frame in Position</div></div>
-      <div class="carousel__slide" aria-label="5 of 24"><img src="/nasa-pics/grouppic.HEIC" alt="Group Picture"><div class="carousel__caption">Group Picture</div></div>
-      <div class="carousel__slide" aria-label="6 of 24"><img src="/nasa-pics/headshot.2025.img" alt="Headshot"><div class="carousel__caption">Headshot</div></div>
-      <div class="carousel__slide" aria-label="7 of 24"><img src="/nasa-pics/inaction.HEIC" alt="In Action"><div class="carousel__caption">In Action</div></div>
-      <div class="carousel__slide" aria-label="8 of 24"><img src="/nasa-pics/indetailblueprints.heic" alt="In-Detail Blueprints"><div class="carousel__caption">In-Detail Blueprints</div></div>
-      <div class="carousel__slide" aria-label="9 of 24"><img src="/nasa-pics/initialblueprint.JPG" alt="Initial Blueprint"><div class="carousel__caption">Initial Blueprint</div></div>
-      <div class="carousel__slide" aria-label="10 of 24"><img src="/nasa-pics/pipeline%20connectors.JPG" alt="Pipeline Connectors"><div class="carousel__caption">Pipeline Connectors</div></div>
-      <div class="carousel__slide" aria-label="11 of 24"><img src="/nasa-pics/piping.JPG" alt="Piping"><div class="carousel__caption">Piping</div></div>
-      <div class="carousel__slide" aria-label="12 of 24"><img src="/nasa-pics/piping2.JPG" alt="Piping 2"><div class="carousel__caption">Piping 2</div></div>
-      <div class="carousel__slide" aria-label="13 of 24"><img src="/nasa-pics/pipingconnected.HEIC" alt="Piping Connected"><div class="carousel__caption">Piping Connected</div></div>
-      <div class="carousel__slide" aria-label="14 of 24"><img src="/nasa-pics/presentationpic.HEIC" alt="Presentation"><div class="carousel__caption">Presentation</div></div>
-      <div class="carousel__slide" aria-label="15 of 24"><img src="/nasa-pics/raspberrypi.HEIC" alt="Raspberry Pi"><div class="carousel__caption">Raspberry Pi</div></div>
-      <div class="carousel__slide" aria-label="16 of 24"><img src="/nasa-pics/raspberrypiearduino.HEIC" alt="Raspberry Pi & Arduino"><div class="carousel__caption">Raspberry Pi + Arduino</div></div>
-      <div class="carousel__slide" aria-label="17 of 24"><img src="/nasa-pics/abstractdigital.jpg" alt="Abstract Digital"><div class="carousel__caption">Abstract Digital</div></div>
-      <div class="carousel__slide" aria-label="18 of 24"><img src="/nasa-pics/algaesamples.HEIC" alt="Algae Samples"><div class="carousel__caption">Algae Samples</div></div>
-      <div class="carousel__slide" aria-label="19 of 24"><img src="/nasa-pics/algaeupclose.HEIC" alt="Algae Up Close"><div class="carousel__caption">Algae Up Close</div></div>
-      <div class="carousel__slide" aria-label="20 of 24"><img src="/nasa-pics/arduinosaudtered.HEIC" alt="Arduino Soldered"><div class="carousel__caption">Arduino Soldered</div></div>
-      <div class="carousel__slide" aria-label="21 of 24"><img src="/nasa-pics/brainstormforidea.PNG" alt="Brainstorm for Idea"><div class="carousel__caption">Brainstorm for Idea</div></div>
-      <div class="carousel__slide" aria-label="22 of 24"><img src="/nasa-pics/code.HEIC" alt="Code"><div class="carousel__caption">Code</div></div>
-      <div class="carousel__slide" aria-label="23 of 24"><img src="/nasa-pics/conceptofwiring.jpg" alt="Concept of Wiring"><div class="carousel__caption">Concept of Wiring</div></div>
+      <div class="carousel__slide" aria-label="1 of 12">
+        <img src="/nasa-pics/initialblueprint.JPG" alt="Initial Blueprint">
+        <div class="carousel__caption">Initial Blueprint</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="2 of 12">
+        <img src="/nasa-pics/indetailblueprints.jpeg" alt="In-Detail Blueprints">
+        <div class="carousel__caption">In-Detail Blueprints</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="3 of 12">
+        <img src="/nasa-pics/conceptofwiring.jpg" alt="Concept of Wiring">
+        <div class="carousel__caption">Concept of Wiring</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="4 of 12">
+        <img src="/nasa-pics/3dpirntedpiping.jpeg" alt="3D Printed Piping">
+        <div class="carousel__caption">3D Printed Piping</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="5 of 12">
+        <img src="/nasa-pics/pipeline%20connectors.JPG" alt="Pipeline Connectors">
+        <div class="carousel__caption">Pipeline Connectors</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="6 of 12">
+        <img src="/nasa-pics/piping2.JPG" alt="Piping 2">
+        <div class="carousel__caption">Piping 2</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="7 of 12">
+        <img src="/nasa-pics/frameinposition.JPG" alt="Frame in Position">
+        <div class="carousel__caption">Frame in Position</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="8 of 12">
+        <img src="/nasa-pics/filter.jpeg" alt="Filter">
+        <div class="carousel__caption">Filter</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="9 of 12">
+        <img src="/nasa-pics/raspberrypiearduino.jpeg" alt="Raspberry Pi + Arduino">
+        <div class="carousel__caption">Raspberry Pi + Arduino</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="10 of 12">
+        <img src="/nasa-pics/algaesamples.jpeg" alt="Algae Samples">
+        <div class="carousel__caption">Algae Samples</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="11 of 12">
+        <img src="/nasa-pics/algaeupclose.jpeg" alt="Algae Up Close">
+        <div class="carousel__caption">Algae Up Close</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="12 of 12">
+        <img src="/nasa-pics/inaction.jpeg" alt="In Action">
+        <div class="carousel__caption">In Action</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="13 of 12">
+        <img src="/nasa-pics/presentationpic.jpeg" alt="Presentation">
+        <div class="carousel__caption">Presentation</div>
+      </div>
 
     </div>
 
@@ -63,7 +104,7 @@ How we would have liked to improve our project given either more time or a large
   </div>
 </div>
 
-<!-- Styles (wrapped so Jekyll/Liquid won't touch it) -->
+<!-- Styles -->
 {% raw %}
 <style>
   :root { --carousel-width:min(100%,980px); --carousel-aspect:16/9; --dot-size:12px; --dot-active-scale:1.25; }
@@ -81,7 +122,7 @@ How we would have liked to improve our project given either more time or a large
 </style>
 {% endraw %}
 
-<!-- Script (wrapped so Jekyll/Liquid won't touch it) -->
+<!-- Script -->
 {% raw %}
 <script>
 (function(){
@@ -114,10 +155,7 @@ How we would have liked to improve our project given either more time or a large
 
   next.addEventListener('click', nextF);
   prev.addEventListener('click', prevF);
-  root.addEventListener('keydown', e => {
-    if (e.key === 'ArrowRight') nextF();
-    if (e.key === 'ArrowLeft')  prevF();
-  });
+  root.addEventListener('keydown', e => { if (e.key==='ArrowRight') nextF(); if (e.key==='ArrowLeft') prevF(); });
 
   // Swipe
   let down=false, sx=0, dx=0;
@@ -131,4 +169,4 @@ How we would have liked to improve our project given either more time or a large
 })();
 </script>
 {% endraw %}
-<!-- ====== /NASA BUTTON CAROUSEL ====== -->
+<!-- ====== /NASA INTERNSHIP CAROUSEL ====== -->
