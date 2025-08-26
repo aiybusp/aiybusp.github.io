@@ -23,7 +23,7 @@ The tubing system had flow in and out to keep the water circulating using the fi
 How we would have liked to improve our project given either more time or a larger budget would have been actually converting our algae into a fuel source of some kind though application, as well as expanding the electronic componets to also read the amount of light recieved at all times.
 
 
-<!-- ====== NASA INTERNSHIP CAROUSEL (15 slides) ====== -->
+<!-- ====== NASA INTERNSHIP CAROUSEL (15 slides, fixed arrows) ====== -->
 <div class="carousel" id="nasa-carousel" aria-roledescription="carousel" aria-label="NASA Gallery">
   <div class="carousel__viewport">
     <div class="carousel__track" role="group" aria-live="polite">
@@ -104,11 +104,12 @@ How we would have liked to improve our project given either more time or a large
       </div>
 
     </div>
-
-    <button class="carousel__btn carousel__btn--prev" aria-label="Previous" data-action="prev">&#10094;</button>
-    <button class="carousel__btn carousel__btn--next" aria-label="Next" data-action="next">&#10095;</button>
-    <div class="carousel__dots"></div>
   </div>
+
+  <!-- buttons & dots are now OUTSIDE the scrolling viewport -->
+  <button class="carousel__btn carousel__btn--prev" aria-label="Previous" data-action="prev">&#10094;</button>
+  <button class="carousel__btn carousel__btn--next" aria-label="Next" data-action="next">&#10095;</button>
+  <div class="carousel__dots"></div>
 </div>
 
 {% raw %}
@@ -120,11 +121,17 @@ How we would have liked to improve our project given either more time or a large
   .carousel__slide{flex:0 0 100%;position:relative;display:grid;place-items:center;background:#000}
   .carousel__slide img{width:100%;height:100%;object-fit:cover;display:block}
   .carousel__caption{position:absolute;left:0;right:0;bottom:0;padding:.75rem .9rem;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.55) 64%,rgba(0,0,0,.8) 100%);color:#fff;font:500 14px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;text-shadow:0 1px 2px rgba(0,0,0,.7)}
+
   .carousel__btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.45);border:none;color:#fff;width:44px;height:44px;border-radius:999px;display:grid;place-items:center;cursor:pointer}
   .carousel__btn--prev{left:10px}.carousel__btn--next{right:10px}
   .carousel__dots{position:absolute;left:0;right:0;bottom:10px;display:flex;gap:8px;justify-content:center}
+
   .carousel__dot{width:var(--dot-size);height:var(--dot-size);border-radius:50%;background:rgba(255,255,255,.45);border:0;cursor:pointer;transition:transform .15s ease,background .2s ease}
   .carousel__dot[aria-current="true"]{background:#fff;transform:scale(var(--dot-active-scale))}
+
+  /* keep arrows & dots above everything even while scrolling */
+  .carousel__btn, .carousel__dots { z-index: 5; }
+  .carousel__caption { z-index: 2; }
 </style>
 
 <script>
@@ -146,6 +153,7 @@ How we would have liked to improve our project given either more time or a large
   sizeSlides();
   window.addEventListener('resize', sizeSlides);
 
+  // build dots
   slides.forEach((_, idx) => {
     const b = document.createElement('button');
     b.className = 'carousel__dot'; b.type='button';
@@ -169,10 +177,15 @@ How we would have liked to improve our project given either more time or a large
   const nextF = () => go(i+1);
   const prevF = () => go(i-1);
 
+  // controls & keyboard
   next.addEventListener('click', nextF);
   prev.addEventListener('click', prevF);
-  root.addEventListener('keydown', e => { if (e.key==='ArrowRight') nextF(); if (e.key==='ArrowLeft') prevF(); });
+  root.addEventListener('keydown', e => {
+    if (e.key==='ArrowRight') nextF();
+    if (e.key==='ArrowLeft')  prevF();
+  });
 
+  // sync on manual swipe/scroll
   let snapTimer = null;
   viewport.addEventListener('scroll', () => {
     clearTimeout(snapTimer);
@@ -182,6 +195,7 @@ How we would have liked to improve our project given either more time or a large
     }, 80);
   });
 
+  // enable snap scrolling
   track.style.display = 'flex';
   viewport.style.overflowX = 'auto';
   viewport.style.scrollSnapType = 'x mandatory';
@@ -192,5 +206,3 @@ How we would have liked to improve our project given either more time or a large
 </script>
 {% endraw %}
 <!-- ====== /NASA INTERNSHIP CAROUSEL ====== -->
-
-
