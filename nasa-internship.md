@@ -25,7 +25,7 @@ How we would have liked to improve our project given either more time or a large
 
 
 
-<!-- === CAROUSEL (paste into your .md page) === -->
+<!-- === CAROUSEL START (interactive) === -->
 <div class="carousel" aria-roledescription="carousel" aria-label="NASA Gallery"
      data-autoplay="false" data-interval="3500">
   <div class="carousel__viewport">
@@ -197,4 +197,26 @@ How we would have liked to improve our project given either more time or a large
   update(); startAuto();
 })();
 </script>
-<!-- === /CAROUSEL === -->
+<!-- === CAROUSEL END === -->
+
+---
+
+## 📸 Static Gallery (Fallback)
+
+![Abstract Digital](/nasa%20pics/abstractdigital.jpg)
+![Algae Far Out](/nasa%20pics/algaefarout.JPG)
+![Concept of Wiring](/nasa%20pics/conceptofwiring.jpg)
+![3D Printed Piping](/nasa%20pics/3dpirntedpiping.HEIC)
+![Algae Samples](/nasa%20pics/algaesamples.HEIC)
+![Arduino Soldered](/nasa%20pics/arduinosaudtered.HEIC)
+![Concept of Wiring (Alt)](/nasa%20pics/conceptofwiring.jpg)
+![Code](/nasa%20pics/code.HEIC)
+![Frame in Position](/nasa%20pics/frameinposition.JPG)
+![Frame & Piping](/nasa%20pics/frameandpiping.HEIC)
+![Group Picture](/nasa%20pics/grouppic.HEIC)
+![Initial Blueprint](/nasa%20pics/initialblueprint.JPG)
+![Piping Connected](/nasa%20pics/pipingconnected.HEIC)
+![Presentation](/nasa%20pics/presentationpic.HEIC)
+![Raspberry Pi + Arduino](/nasa%20pics/raspberrypiearduino.HEIC)
+![Piping](/nasa%20pics/piping.JPG)
+
