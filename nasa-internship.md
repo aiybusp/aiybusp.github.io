@@ -23,13 +23,108 @@ The tubing system had flow in and out to keep the water circulating using the fi
 How we would have liked to improve our project given either more time or a larger budget would have been actually converting our algae into a fuel source of some kind though application, as well as expanding the electronic componets to also read the amount of light recieved at all times.
 
 
+<!-- ====== NASA INTERNSHIP CAROUSEL (15 slides, responsive contain) ====== -->
+<div class="carousel" id="nasa-carousel" aria-roledescription="carousel" aria-label="NASA Gallery">
+  <div class="carousel__viewport">
+    <div class="carousel__track" role="group" aria-live="polite">
+
+      <div class="carousel__slide" aria-label="1 of 15">
+        <img src="{{ '/initialblueprint.JPG' | relative_url }}" alt="Initial Blueprint">
+        <div class="carousel__caption">Initial Blueprint</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="2 of 15">
+        <img src="{{ '/brainstormforidea.PNG' | relative_url }}" alt="Brainstorm for Idea">
+        <div class="carousel__caption">Brainstorm for Idea</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="3 of 15">
+        <img src="{{ '/indetailblueprints.jpeg' | relative_url }}" alt="In-Detail Blueprints">
+        <div class="carousel__caption">In-Detail Blueprints</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="4 of 15">
+        <img src="{{ '/conceptofwiring.jpg' | relative_url }}" alt="Concept of Wiring">
+        <div class="carousel__caption">Concept of Wiring</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="5 of 15">
+        <img src="{{ '/raspberrypiearduino.jpeg' | relative_url }}" alt="Raspberry Pi + Arduino">
+        <div class="carousel__caption">Raspberry Pi + Arduino</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="6 of 15">
+        <img src="{{ '/pipeline%20connectors.JPG' | relative_url }}" alt="Pipeline Connectors">
+        <div class="carousel__caption">Pipeline Connectors</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="7 of 15">
+        <img src="{{ '/piping.JPG' | relative_url }}" alt="Piping">
+        <div class="carousel__caption">Piping</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="8 of 15">
+        <img src="{{ '/piping2.JPG' | relative_url }}" alt="Piping 2">
+        <div class="carousel__caption">Piping 2</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="9 of 15">
+        <img src="{{ '/frameinposition.JPG' | relative_url }}" alt="Frame in Position">
+        <div class="carousel__caption">Frame in Position</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="10 of 15">
+        <img src="{{ '/filter.jpeg' | relative_url }}" alt="Filter">
+        <div class="carousel__caption">Filter</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="11 of 15">
+        <img src="{{ '/algaesamples.jpeg' | relative_url }}" alt="Algae Samples">
+        <div class="carousel__caption">Algae Samples</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="12 of 15">
+        <img src="{{ '/algaeupclose.jpeg' | relative_url }}" alt="Algae Up Close">
+        <div class="carousel__caption">Algae Up Close</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="13 of 15">
+        <img src="{{ '/presentationpic.jpeg' | relative_url }}" alt="Presentation">
+        <div class="carousel__caption">Presentation</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="14 of 15">
+        <img src="{{ '/inaction.jpeg' | relative_url }}" alt="In Action">
+        <div class="carousel__caption">In Action</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="15 of 15">
+        <img src="{{ '/grouppic.jpeg' | relative_url }}" alt="Group Picture">
+        <div class="carousel__caption">Group Picture</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- buttons & dots outside the scroll -->
+  <button class="carousel__btn carousel__btn--prev" aria-label="Previous" data-action="prev">&#10094;</button>
+  <button class="carousel__btn carousel__btn--next" aria-label="Next" data-action="next">&#10095;</button>
+  <div class="carousel__dots"></div>
+</div>
+
 {% raw %}
 <style>
   :root {
-    --carousel-width: min(100%, 1100px);   /* wider max */
-    --carousel-height: min(85vh, 950px);   /* taller, fills most of screen */
+    --carousel-width: min(100%, 1100px);
+    --carousel-height: min(85vh, 950px);  /* desktop height */
     --dot-size: 14px;
     --dot-active-scale: 1.3;
+  }
+
+  @media (max-width: 768px) {
+    :root {
+      --carousel-height: 60vh;  /* smaller height on mobile */
+    }
   }
 
   .carousel {
@@ -61,7 +156,7 @@ How we would have liked to improve our project given either more time or a large
     background: #000;
   }
 
-  /* no cropping — scales to fit */
+  /* no cropping */
   .carousel__slide img {
     width: 100%;
     height: 100%;
@@ -119,8 +214,80 @@ How we would have liked to improve our project given either more time or a large
     transform: scale(var(--dot-active-scale));
   }
 
-  /* keep arrows & dots on top */
+  /* keep arrows & dots above */
   .carousel__btn, .carousel__dots { z-index: 5; }
   .carousel__caption { z-index: 2; }
 </style>
+
+<script>
+(function(){
+  const root = document.getElementById('nasa-carousel');
+  if (!root) return;
+
+  const viewport = root.querySelector('.carousel__viewport');
+  const track    = root.querySelector('.carousel__track');
+  const slides   = Array.from(root.querySelectorAll('.carousel__slide'));
+  const prev     = root.querySelector('[data-action="prev"]');
+  const next     = root.querySelector('[data-action="next"]');
+  const dotsWrap = root.querySelector('.carousel__dots');
+
+  function sizeSlides(){
+    const w = viewport.clientWidth;
+    slides.forEach(s => s.style.flex = `0 0 ${w}px`);
+  }
+  sizeSlides();
+  window.addEventListener('resize', sizeSlides);
+
+  // build dots
+  slides.forEach((_, idx) => {
+    const b = document.createElement('button');
+    b.className = 'carousel__dot'; b.type='button';
+    b.setAttribute('aria-label', `Go to slide ${idx+1}`);
+    b.addEventListener('click', () => go(idx));
+    dotsWrap.appendChild(b);
+  });
+
+  let i = 0;
+  function updateDots(){
+    dotsWrap.querySelectorAll('.carousel__dot').forEach((d, idx) =>
+      d.setAttribute('aria-current', idx===i ? 'true' : 'false'));
+    slides.forEach((s, idx) => s.setAttribute('aria-hidden', idx===i ? 'false' : 'true'));
+  }
+
+  function go(n){
+    i = (n + slides.length) % slides.length;
+    viewport.scrollTo({ left: i * viewport.clientWidth, behavior: 'smooth' });
+    updateDots();
+  }
+  const nextF = () => go(i+1);
+  const prevF = () => go(i-1);
+
+  // controls & keyboard
+  next.addEventListener('click', nextF);
+  prev.addEventListener('click', prevF);
+  root.addEventListener('keydown', e => {
+    if (e.key==='ArrowRight') nextF();
+    if (e.key==='ArrowLeft')  prevF();
+  });
+
+  // sync on manual swipe/scroll
+  let snapTimer = null;
+  viewport.addEventListener('scroll', () => {
+    clearTimeout(snapTimer);
+    snapTimer = setTimeout(() => {
+      i = Math.round(viewport.scrollLeft / viewport.clientWidth);
+      updateDots();
+    }, 80);
+  });
+
+  // enable snap scrolling
+  track.style.display = 'flex';
+  viewport.style.overflowX = 'auto';
+  viewport.style.scrollSnapType = 'x mandatory';
+  slides.forEach(s => s.style.scrollSnapAlign = 'center');
+
+  go(0);
+})();
+</script>
 {% endraw %}
+<!-- ====== /NASA INTERNSHIP CAROUSEL ====== -->
