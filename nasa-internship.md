@@ -25,73 +25,74 @@ How we would have liked to improve our project given either more time or a large
 
 
 
-<!-- ====== NASA INTERNSHIP CAROUSEL ====== -->
+
+<!-- ====== NASA INTERNSHIP CAROUSEL (root images) ====== -->
 <div class="carousel" id="nasa-carousel" aria-roledescription="carousel" aria-label="NASA Gallery">
   <div class="carousel__viewport">
     <div class="carousel__track" role="group" aria-live="polite">
 
-      <div class="carousel__slide" aria-label="1 of 12">
-        <img src="/nasa-pics/initialblueprint.JPG" alt="Initial Blueprint">
+      <div class="carousel__slide" aria-label="1 of 13">
+        <img src="{{ '/initialblueprint.JPG' | relative_url }}" alt="Initial Blueprint">
         <div class="carousel__caption">Initial Blueprint</div>
       </div>
 
-      <div class="carousel__slide" aria-label="2 of 12">
-        <img src="/nasa-pics/indetailblueprints.jpeg" alt="In-Detail Blueprints">
+      <div class="carousel__slide" aria-label="2 of 13">
+        <img src="{{ '/indetailblueprints.jpeg' | relative_url }}" alt="In-Detail Blueprints">
         <div class="carousel__caption">In-Detail Blueprints</div>
       </div>
 
-      <div class="carousel__slide" aria-label="3 of 12">
-        <img src="/nasa-pics/conceptofwiring.jpg" alt="Concept of Wiring">
+      <div class="carousel__slide" aria-label="3 of 13">
+        <img src="{{ '/conceptofwiring.jpg' | relative_url }}" alt="Concept of Wiring">
         <div class="carousel__caption">Concept of Wiring</div>
       </div>
 
-      <div class="carousel__slide" aria-label="4 of 12">
-        <img src="/nasa-pics/3dpirntedpiping.jpeg" alt="3D Printed Piping">
+      <div class="carousel__slide" aria-label="4 of 13">
+        <img src="{{ '/3dpirntedpiping.jpeg' | relative_url }}" alt="3D Printed Piping">
         <div class="carousel__caption">3D Printed Piping</div>
       </div>
 
-      <div class="carousel__slide" aria-label="5 of 12">
-        <img src="/nasa-pics/pipeline%20connectors.JPG" alt="Pipeline Connectors">
+      <div class="carousel__slide" aria-label="5 of 13">
+        <img src="{{ '/pipeline%20connectors.JPG' | relative_url }}" alt="Pipeline Connectors">
         <div class="carousel__caption">Pipeline Connectors</div>
       </div>
 
-      <div class="carousel__slide" aria-label="6 of 12">
-        <img src="/nasa-pics/piping2.JPG" alt="Piping 2">
+      <div class="carousel__slide" aria-label="6 of 13">
+        <img src="{{ '/piping2.JPG' | relative_url }}" alt="Piping 2">
         <div class="carousel__caption">Piping 2</div>
       </div>
 
-      <div class="carousel__slide" aria-label="7 of 12">
-        <img src="/nasa-pics/frameinposition.JPG" alt="Frame in Position">
+      <div class="carousel__slide" aria-label="7 of 13">
+        <img src="{{ '/frameinposition.JPG' | relative_url }}" alt="Frame in Position">
         <div class="carousel__caption">Frame in Position</div>
       </div>
 
-      <div class="carousel__slide" aria-label="8 of 12">
-        <img src="/nasa-pics/filter.jpeg" alt="Filter">
+      <div class="carousel__slide" aria-label="8 of 13">
+        <img src="{{ '/filter.jpeg' | relative_url }}" alt="Filter">
         <div class="carousel__caption">Filter</div>
       </div>
 
-      <div class="carousel__slide" aria-label="9 of 12">
-        <img src="/nasa-pics/raspberrypiearduino.jpeg" alt="Raspberry Pi + Arduino">
+      <div class="carousel__slide" aria-label="9 of 13">
+        <img src="{{ '/raspberrypiearduino.jpeg' | relative_url }}" alt="Raspberry Pi + Arduino">
         <div class="carousel__caption">Raspberry Pi + Arduino</div>
       </div>
 
-      <div class="carousel__slide" aria-label="10 of 12">
-        <img src="/nasa-pics/algaesamples.jpeg" alt="Algae Samples">
+      <div class="carousel__slide" aria-label="10 of 13">
+        <img src="{{ '/algaesamples.jpeg' | relative_url }}" alt="Algae Samples">
         <div class="carousel__caption">Algae Samples</div>
       </div>
 
-      <div class="carousel__slide" aria-label="11 of 12">
-        <img src="/nasa-pics/algaeupclose.jpeg" alt="Algae Up Close">
+      <div class="carousel__slide" aria-label="11 of 13">
+        <img src="{{ '/algaeupclose.jpeg' | relative_url }}" alt="Algae Up Close">
         <div class="carousel__caption">Algae Up Close</div>
       </div>
 
-      <div class="carousel__slide" aria-label="12 of 12">
-        <img src="/nasa-pics/inaction.jpeg" alt="In Action">
+      <div class="carousel__slide" aria-label="12 of 13">
+        <img src="{{ '/inaction.jpeg' | relative_url }}" alt="In Action">
         <div class="carousel__caption">In Action</div>
       </div>
 
-      <div class="carousel__slide" aria-label="13 of 12">
-        <img src="/nasa-pics/presentationpic.jpeg" alt="Presentation">
+      <div class="carousel__slide" aria-label="13 of 13">
+        <img src="{{ '/presentationpic.jpeg' | relative_url }}" alt="Presentation">
         <div class="carousel__caption">Presentation</div>
       </div>
 
@@ -104,7 +105,6 @@ How we would have liked to improve our project given either more time or a large
   </div>
 </div>
 
-<!-- Styles -->
 {% raw %}
 <style>
   :root { --carousel-width:min(100%,980px); --carousel-aspect:16/9; --dot-size:12px; --dot-active-scale:1.25; }
@@ -120,10 +120,7 @@ How we would have liked to improve our project given either more time or a large
   .carousel__dot{width:var(--dot-size);height:var(--dot-size);border-radius:50%;background:rgba(255,255,255,.45);border:0;cursor:pointer;transition:transform .15s ease,background .2s ease}
   .carousel__dot[aria-current="true"]{background:#fff;transform:scale(var(--dot-active-scale))}
 </style>
-{% endraw %}
 
-<!-- Script -->
-{% raw %}
 <script>
 (function(){
   const root = document.getElementById('nasa-carousel');
@@ -135,7 +132,7 @@ How we would have liked to improve our project given either more time or a large
   const dotsWrap = root.querySelector('.carousel__dots');
   let i = 0;
 
-  // Build dots
+  // Dots
   slides.forEach((_, idx) => {
     const b = document.createElement('button');
     b.className='carousel__dot'; b.type='button';
@@ -170,3 +167,4 @@ How we would have liked to improve our project given either more time or a large
 </script>
 {% endraw %}
 <!-- ====== /NASA INTERNSHIP CAROUSEL ====== -->
+
