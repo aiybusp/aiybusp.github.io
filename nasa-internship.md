@@ -24,77 +24,84 @@ How we would have liked to improve our project given either more time or a large
 
 
 
-
-
-
-<!-- ====== NASA INTERNSHIP CAROUSEL ====== -->
+<!-- ====== NASA INTERNSHIP CAROUSEL (15 slides) ====== -->
 <div class="carousel" id="nasa-carousel" aria-roledescription="carousel" aria-label="NASA Gallery">
   <div class="carousel__viewport">
     <div class="carousel__track" role="group" aria-live="polite">
 
-      <div class="carousel__slide" aria-label="1 of 13">
+      <div class="carousel__slide" aria-label="1 of 15">
         <img src="{{ '/initialblueprint.JPG' | relative_url }}" alt="Initial Blueprint">
         <div class="carousel__caption">Initial Blueprint</div>
       </div>
 
-      <div class="carousel__slide" aria-label="2 of 13">
+      <div class="carousel__slide" aria-label="2 of 15">
+        <img src="{{ '/brainstormforidea.PNG' | relative_url }}" alt="Brainstorm for Idea">
+        <div class="carousel__caption">Brainstorm for Idea</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="3 of 15">
         <img src="{{ '/indetailblueprints.jpeg' | relative_url }}" alt="In-Detail Blueprints">
         <div class="carousel__caption">In-Detail Blueprints</div>
       </div>
 
-      <div class="carousel__slide" aria-label="3 of 13">
+      <div class="carousel__slide" aria-label="4 of 15">
         <img src="{{ '/conceptofwiring.jpg' | relative_url }}" alt="Concept of Wiring">
         <div class="carousel__caption">Concept of Wiring</div>
       </div>
 
-      <div class="carousel__slide" aria-label="4 of 13">
-        <img src="{{ '/3dpirntedpiping.jpeg' | relative_url }}" alt="3D Printed Piping">
-        <div class="carousel__caption">3D Printed Piping</div>
-      </div>
-
-      <div class="carousel__slide" aria-label="5 of 13">
-        <img src="{{ '/pipeline%20connectors.JPG' | relative_url }}" alt="Pipeline Connectors">
-        <div class="carousel__caption">Pipeline Connectors</div>
-      </div>
-
-      <div class="carousel__slide" aria-label="6 of 13">
-        <img src="{{ '/piping2.JPG' | relative_url }}" alt="Piping 2">
-        <div class="carousel__caption">Piping 2</div>
-      </div>
-
-      <div class="carousel__slide" aria-label="7 of 13">
-        <img src="{{ '/frameinposition.JPG' | relative_url }}" alt="Frame in Position">
-        <div class="carousel__caption">Frame in Position</div>
-      </div>
-
-      <div class="carousel__slide" aria-label="8 of 13">
-        <img src="{{ '/filter.jpeg' | relative_url }}" alt="Filter">
-        <div class="carousel__caption">Filter</div>
-      </div>
-
-      <div class="carousel__slide" aria-label="9 of 13">
+      <div class="carousel__slide" aria-label="5 of 15">
         <img src="{{ '/raspberrypiearduino.jpeg' | relative_url }}" alt="Raspberry Pi + Arduino">
         <div class="carousel__caption">Raspberry Pi + Arduino</div>
       </div>
 
-      <div class="carousel__slide" aria-label="10 of 13">
+      <div class="carousel__slide" aria-label="6 of 15">
+        <img src="{{ '/pipeline%20connectors.JPG' | relative_url }}" alt="Pipeline Connectors">
+        <div class="carousel__caption">Pipeline Connectors</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="7 of 15">
+        <img src="{{ '/piping.JPG' | relative_url }}" alt="Piping">
+        <div class="carousel__caption">Piping</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="8 of 15">
+        <img src="{{ '/piping2.JPG' | relative_url }}" alt="Piping 2">
+        <div class="carousel__caption">Piping 2</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="9 of 15">
+        <img src="{{ '/frameinposition.JPG' | relative_url }}" alt="Frame in Position">
+        <div class="carousel__caption">Frame in Position</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="10 of 15">
+        <img src="{{ '/filter.jpeg' | relative_url }}" alt="Filter">
+        <div class="carousel__caption">Filter</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="11 of 15">
         <img src="{{ '/algaesamples.jpeg' | relative_url }}" alt="Algae Samples">
         <div class="carousel__caption">Algae Samples</div>
       </div>
 
-      <div class="carousel__slide" aria-label="11 of 13">
+      <div class="carousel__slide" aria-label="12 of 15">
         <img src="{{ '/algaeupclose.jpeg' | relative_url }}" alt="Algae Up Close">
         <div class="carousel__caption">Algae Up Close</div>
       </div>
 
-      <div class="carousel__slide" aria-label="12 of 13">
+      <div class="carousel__slide" aria-label="13 of 15">
+        <img src="{{ '/presentationpic.jpeg' | relative_url }}" alt="Presentation">
+        <div class="carousel__caption">Presentation</div>
+      </div>
+
+      <div class="carousel__slide" aria-label="14 of 15">
         <img src="{{ '/inaction.jpeg' | relative_url }}" alt="In Action">
         <div class="carousel__caption">In Action</div>
       </div>
 
-      <div class="carousel__slide" aria-label="13 of 13">
-        <img src="{{ '/presentationpic.jpeg' | relative_url }}" alt="Presentation">
-        <div class="carousel__caption">Presentation</div>
+      <div class="carousel__slide" aria-label="15 of 15">
+        <img src="{{ '/grouppic.jpeg' | relative_url }}" alt="Group Picture">
+        <div class="carousel__caption">Group Picture</div>
       </div>
 
     </div>
@@ -170,8 +177,8 @@ How we would have liked to improve our project given either more time or a large
   next.addEventListener('click', nextF);
   prev.addEventListener('click', prevF);
   root.addEventListener('keydown', e => {
-    if (e.key === 'ArrowRight') nextF();
-    if (e.key === 'ArrowLeft')  prevF();
+    if (e.key==='ArrowRight') nextF();
+    if (e.key==='ArrowLeft') prevF();
   });
 
   // Sync index if user swipes manually
@@ -196,4 +203,3 @@ How we would have liked to improve our project given either more time or a large
 </script>
 {% endraw %}
 <!-- ====== /NASA INTERNSHIP CAROUSEL ====== -->
-
